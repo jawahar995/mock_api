@@ -14,13 +14,13 @@ let products = [
 ];
 
 let orders = {
-  ORD12345: { status: "Shipped", delivery_date: "2025-08-22" },
-  ORD67890: { status: "Processing", delivery_date: "2025-08-25" },
+  12345: { status: "Shipped", delivery_date: "2025-08-22" },
+  67890: { status: "Processing", delivery_date: "2025-08-25" },
 };
 
 let shipments = {
-  TRK98765: { status: "In Transit", expected_delivery: "2025-08-23" },
-  TRK12345: { status: "Delivered", delivered_on: "2025-08-18" },
+  98765: { status: "In Transit", expected_delivery: "2025-08-23" },
+  12345: { status: "Delivered", delivered_on: "2025-08-18" },
 };
 
 // --- Endpoints ---
